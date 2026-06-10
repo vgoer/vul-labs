@@ -1,0 +1,7 @@
+services:
+  pikachu:
+    image: 8023/pikachu-expect:latest
+    container_name: pikachu-expect
+    ports:
+      - 2002:80
+    restart: always
