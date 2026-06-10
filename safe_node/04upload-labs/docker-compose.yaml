@@ -1,0 +1,7 @@
+services:
+  upload-labs:
+    image: c0ny1/upload-labs:latest
+    container_name: upload-labs
+    ports:
+      - 2003:80
+    restart: always
