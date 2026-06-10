@@ -1,0 +1,7 @@
+services:
+  dvwa:
+    image: vulnerables/web-dvwa:latest
+    container_name: dvwa-server
+    ports:
+      - 2000:80
+    restart: always
